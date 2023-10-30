@@ -1,0 +1,1149 @@
+body {
+    background-image: url('pozadina.jfif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.nav-meni {
+    width: 98%;
+    height: 100px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #BAF8BA;
+    margin: 0px 0px;
+    border: 1px solid red;
+
+
+}
+
+.nav-meni .items {
+    padding: 40px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+
+
+
+}
+
+.nav-meni .items a {
+    text-decoration: none;
+    color: #3A403A;
+}
+
+.nav-meni .items a:hover {
+
+    color: #232623;
+    border-bottom: 2px solid #1E211E;
+    transition: 0.2s ease;
+
+}
+
+div p {
+
+
+    font-size: 60px;
+    text-align: justify;
+    margin-top: 265px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.text {
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    background-color: #E1FFE1;
+    opacity: 0.6;
+}
+
+.slika {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 100%;
+    display: flex;
+
+
+}
+
+.otrovne {
+
+    width: 100px;
+    height: 100px;
+}
+
+.vrganj {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+.animacija {
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+
+    position: absolute;
+    top: 150px;
+    left: 20px;
+
+    background-image: url('otrovne.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    animation-name: pecurka;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes pecurka {
+
+    0% {
+        left: 1400px;
+        top: 350px;
+        width: 90px;
+        height: 90px;
+
+    }
+
+    20% {
+        left: 1400px;
+        top: 350px;
+        width: 90px;
+        height: 90px;
+
+    }
+
+    25% {
+        left: 1400px;
+        top: 350px;
+        width: 90px;
+        height: 90px;
+
+    }
+
+    50% {
+        left: 1380px;
+        top: 290px;
+        width: 170px;
+        height: 170px;
+
+    }
+
+    90% {
+        left: 1380px;
+        top: 290px;
+        width: 170px;
+        height: 170px;
+
+    }
+
+    100% {
+        left: 1370px;
+        top: 280px;
+        width: 180px;
+        height: 180px;
+    }
+}
+
+.animacija1 {
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+
+    position: absolute;
+    top: 150px;
+    left: 20px;
+
+    background-image: url('oblak.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    animation-name: oblak;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes oblak {
+
+    0% {
+        left: 1720px;
+        top: 170px;
+        width: 150px;
+        height: 150px;
+
+
+    }
+
+    100% {
+        left: 1000px;
+        top: 170px;
+        width: 150px;
+        height: 150px;
+        visibility: hidden;
+    }
+}
+
+.animacija3 {
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+
+    position: absolute;
+    top: 150px;
+    left: 20px;
+
+    background-image: url('oblak.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    animation-name: oblak1;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes oblak1 {
+
+    0% {
+        left: 1760px;
+        top: 170px;
+        width: 150px;
+        height: 150px;
+
+
+    }
+
+    100% {
+        left: 1040px;
+        top: 170px;
+        width: 150px;
+        height: 150px;
+        visibility: hidden;
+    }
+}
+
+.animacija2 {
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+
+    position: absolute;
+    top: 150px;
+    left: 20px;
+
+    background-image: url('sunce.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    animation-name: sunce;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes sunce {
+
+    0% {
+        left: 1450px;
+        top: 120px;
+        width: 150px;
+        height: 150px;
+
+
+    }
+
+    0% {
+        left: 1450px;
+        top: 120px;
+        width: 150px;
+        height: 150px;
+
+
+    }
+
+    100% {
+        left: 1450px;
+        top: 120px;
+        width: 150px;
+        height: 150px;
+        transform: rotate(360deg);
+
+
+
+    }
+}
+
+.slike2 {
+
+    display: flex;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 5%;
+
+
+}
+
+.slike2 .jedan {
+
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+}
+
+.slike2 .dva {
+
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.slike2 .tri {
+
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.slike2 .cetiri {
+
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.slike2 .pet {
+
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.slike2 .sest {
+
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.naslov p {
+    font-size: 50px;
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+.slike2 .jedan .slika5 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+
+
+}
+
+.slike2 .dva .slika6 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.slike2 .tri .slika7 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.slike2 .cetiri .slika8 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.slike2 .pet .slika9 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.slike2 .sest .slika10 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.slike2 .jedan .slika5:hover {
+    position: relative;
+    width: 103%;
+    height: 103%;
+    border: 1px solid yellow;
+
+
+}
+
+.slike2 .dva .slika6:hover {
+    position: relative;
+    width: 103%;
+    height: 103%;
+    border: 1px solid yellow;
+}
+
+.slike2 .tri .slika7:hover {
+    position: relative;
+    width: 103%;
+    height: 103%;
+    border: 1px solid yellow;
+}
+
+.slike2 .cetiri .slika8:hover {
+    position: relative;
+    width: 103%;
+    height: 103%;
+    border: 1px solid yellow;
+}
+
+.slike2 .pet .slika9:hover {
+    position: relative;
+    width: 103%;
+    height: 103%;
+    border: 1px solid yellow;
+}
+
+.slike2 .sest .slika10:hover {
+    position: relative;
+    width: 103%;
+    height: 103%;
+    border: 1px solid yellow;
+}
+
+.slike2 .jedan p {
+
+    position: absolute;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.slike2 .dva p {
+
+    position: absolute;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.slike2 .tri p {
+
+    position: absolute;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.slike2 .cetiri p {
+
+    position: absolute;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.slike2 .pet p {
+
+    position: absolute;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.slike2 .sest p {
+
+    position: absolute;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tekstovi {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    margin: 50px 50px;
+    padding: 10px 10px;
+    border-bottom: 1px dotted black;
+    background-color: #E1FFE1;
+    opacity: 0.5;
+}
+
+.ime {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.konacno p {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 600px;
+    margin-top: 100px;
+
+}
+
+.konacno1 p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 30px 30px;
+    padding: 10px 10px;
+    background-color: #E1FFE1;
+    opacity: 0.6;
+}
+
+.napomena {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    background-color: #E1FFE1;
+    opacity: 0.4;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 414px) {
+    body {
+        background-image: url('pozadina.jfif');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+
+    .nav-meni {
+        width: 86%;
+        height: 12%;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: #BAF8BA;
+        margin: auto;
+        border-bottom: 1px solid red;
+    }
+
+    .nav-meni .items {
+        margin: 8px;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0px;
+    }
+
+    .text {
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    div p {
+        font-size: 12px;
+        text-align: justify;
+        margin-top: 265px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    @keyframes pecurka {
+
+        0% {
+            left: 110px;
+            top: 230px;
+            width: 40px;
+            height: 40px;
+        }
+
+        20% {
+            left: 110px;
+            top: 230px;
+            width: 40px;
+            height: 40px;
+        }
+
+        25% {
+            left: 110px;
+            top: 230px;
+            width: 40px;
+            height: 40px;
+        }
+
+        50% {
+            left: 90px;
+            top: 210px;
+            width: 80px;
+            height: 80px;
+        }
+
+        90% {
+            left: 80px;
+            top: 200px;
+            width: 90px;
+            height: 90px;
+        }
+
+        100% {
+            left: 80px;
+            top: 200px;
+            width: 91px;
+            height: 91px;
+        }
+
+
+    }
+
+    @keyframes sunce {
+
+        0% {
+            left: 120px;
+            top: 85px;
+            width: 100px;
+            height: 100px;
+        }
+
+        100% {
+            left: 120px;
+            top: 85px;
+            width: 100px;
+            height: 100px;
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes oblak1 {
+
+        0% {
+            left: 222px;
+            top: 140px;
+            width: 80px;
+            height: 80px;
+
+        }
+
+        100% {
+            left: 10px;
+            top: 140px;
+            width: 80px;
+            height: 80px;
+            visibility: hidden;
+        }
+    }
+
+    @keyframes oblak {
+
+        0% {
+            left: 210px;
+            top: 140px;
+            width: 80px;
+            height: 80px;
+
+        }
+
+        100% {
+            left: 10px;
+            top: 140px;
+            width: 80px;
+            height: 80px;
+            visibility: hidden;
+        }
+    }
+
+    .naslov p {
+        font-size: 20px;
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+
+    .slike2 {
+
+        position: relative;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    .slike2 .jedan {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .jedan p {
+        position: absolute;
+        font-size: 8px;
+        margin-top: 10px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .dva {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .dva p {
+        position: absolute;
+        font-size: 8px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .tri {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .tri p {
+        position: absolute;
+        font-size: 8px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .cetiri {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .cetiri p {
+        position: absolute;
+        font-size: 8px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .pet {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .pet p {
+        position: absolute;
+        font-size: 8px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .sest {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .sest p {
+        position: absolute;
+        font-size: 8px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tekstovi {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        margin: 20px 20px;
+        padding: 10px 10px;
+        border-bottom: 1px dotted black;
+    }
+
+    .konacno p {
+        font-weight: bold;
+        font-size: 12px;
+
+        margin-top: 50px;
+        margin: 70px;
+        justify-content: center;
+    }
+
+    .konacno1 p {
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        margin: 30px 30px;
+        padding: 10px 10px;
+    }
+
+    .ime {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: left;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url('pozadina.jfif');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+
+    .nav-meni {
+        width: 93%;
+        height: 55px;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: #BAF8BA;
+        margin: auto;
+        border-bottom: 1px solid red;
+    }
+
+    .nav-meni .items {
+        margin: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .text {
+        width: 98%;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    div p {
+        font-size: 30px;
+        text-align: justify;
+        margin-top: 265px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    @keyframes pecurka {
+
+        0% {
+            left: 410px;
+            top: 220px;
+            width: 40px;
+            height: 40px;
+        }
+
+        20% {
+            left: 410px;
+            top: 220px;
+            width: 40px;
+            height: 40px;
+        }
+
+        25% {
+            left: 410px;
+            top: 220px;
+            width: 40px;
+            height: 40px;
+        }
+
+        50% {
+            left: 390px;
+            top: 210px;
+            width: 80px;
+            height: 80px;
+        }
+
+        90% {
+            left: 380px;
+            top: 200px;
+            width: 90px;
+            height: 90px;
+        }
+
+        100% {
+            left: 380px;
+            top: 200px;
+            width: 91px;
+            height: 91px;
+        }
+
+
+    }
+
+    @keyframes sunce {
+
+        0% {
+            left: 420px;
+            top: 85px;
+            width: 100px;
+            height: 100px;
+        }
+
+        100% {
+            left: 420px;
+            top: 85px;
+            width: 100px;
+            height: 100px;
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes oblak1 {
+
+        0% {
+            left: 522px;
+            top: 140px;
+            width: 80px;
+            height: 80px;
+
+        }
+
+        100% {
+            left: 310px;
+            top: 140px;
+            width: 80px;
+            height: 80px;
+            visibility: hidden;
+        }
+    }
+
+    @keyframes oblak {
+
+        0% {
+            left: 510px;
+            top: 140px;
+            width: 80px;
+            height: 80px;
+
+        }
+
+        100% {
+            left: 310px;
+            top: 140px;
+            width: 80px;
+            height: 80px;
+            visibility: hidden;
+        }
+    }
+
+    .naslov p {
+        font-size: 35px;
+        margin-left: 40%;
+        margin-top: 10px;
+    }
+
+    .slike2 {
+
+        position: relative;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    .slike2 .jedan {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .jedan p {
+        position: absolute;
+        font-size: 22px;
+        margin-top: 10px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .dva {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .dva p {
+        position: absolute;
+        font-size: 22px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .tri {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .tri p {
+        position: absolute;
+        font-size: 22px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .cetiri {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .cetiri p {
+        position: absolute;
+        font-size: 22px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .pet {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .pet p {
+        position: absolute;
+        font-size: 22px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slike2 .sest {
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .slike2 .sest p {
+        position: absolute;
+        font-size: 22px;
+        margin-top: 10px;
+        background-color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tekstovi {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        margin: 20px 20px;
+        padding: 10px 10px;
+        border-bottom: 1px dotted black;
+    }
+
+    .konacno p {
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 50px;
+        margin: 40px;
+        justify-content: center;
+    }
+
+    .konacno1 p {
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        margin: 30px 30px;
+        padding: 10px 10px;
+    }
+
+    .ime {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: left;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+}
