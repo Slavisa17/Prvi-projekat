@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /slike/
 
 sitemap: https://slavisa17.github.io/Prvi-projekat/sitemap.xml
