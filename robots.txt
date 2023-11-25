@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: https://slavisa17.github.io/Prvi-projekat/sitemap.xml
